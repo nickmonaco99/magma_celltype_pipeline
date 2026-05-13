@@ -70,8 +70,9 @@ print(f"  Build:      {gwas['build']}")
 gwas_raw_path        = project_root / config['paths']['gwas_dir'] / gwas['raw_subfolder'] / gwas['raw_filename']
 results_dir          = project_root / config['paths']['results_dir'] / gwas['output_folder']
 results_dir.mkdir(parents=True, exist_ok=True)
-output_sumstats_path = results_dir / "insomnia_ukb.no_heading"
-output_snploc_path   = results_dir / "snploc_insomnia_ukb"
+file_prefix = config['gwas'][gwas_key].get('file_prefix', gwas_key)
+output_sumstats_path = results_dir / f"{file_prefix}.no_heading"
+output_snploc_path   = results_dir / f"snploc_{file_prefix}"
 provenance_log       = results_dir / "run.log"
 
 

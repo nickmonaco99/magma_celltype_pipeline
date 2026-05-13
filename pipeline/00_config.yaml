@@ -77,6 +77,7 @@ gwas:
     raw_filename:      "insomnia_ukb2b_EUR_sumstats_20190311_with_chrX_mac_100.txt.gz"
     raw_subfolder:     "insomnia_watanabe2022_ukb"
     output_folder:     "INS_UKB"
+    file_prefix:       "insomnia_ukb"
 
     # =========================================================================
     # COLUMN MAPPING — verified against README_atlas_ukb2_sumstats.txt
