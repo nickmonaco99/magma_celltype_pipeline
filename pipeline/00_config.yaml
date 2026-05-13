@@ -22,6 +22,7 @@ paths:
   gwas_dir:                "gwas_sumstats"
   results_dir:             "results"
   scratch_dir:             "scratch"
+  siletti_annotations:     "auxfiles/science.add7046_table_s3.xlsx"  
 
 # -----------------------------------------------------------------------------
 # 3. MAGMA — pinned to v1.10 + Duncan's parameters
