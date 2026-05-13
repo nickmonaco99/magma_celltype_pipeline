@@ -25,6 +25,7 @@ To add a new GWAS:
     3. Run the pipeline. No edits to any scripts needed.
 """
 
+import argparse
 import datetime
 import sys
 import yaml
@@ -38,6 +39,13 @@ def shell_quote(value):
 
 
 def main():
+    parser = argparse.ArgumentParser(description='Emit GWAS-specific env file from config')
+    parser.add_argument('--gwas-key', default=None,
+                        help='GWAS key from config; defaults to config.active_gwas')
+    parser.add_argument('--out-path', default=None,
+                        help='Output env file path; defaults to pipeline/_active_gwas.env')
+    args = parser.parse_args()
+
     pipeline_dir = Path(__file__).resolve().parent
     config_path = pipeline_dir / "00_config.yaml"
 
@@ -47,7 +55,7 @@ def main():
     with open(config_path) as f:
         c = yaml.safe_load(f)
 
-    active = c.get("active_gwas")
+    active = args.gwas_key or c.get("active_gwas")
     if not active:
         sys.exit("[_emit_active_env] ERROR: 'active_gwas' not set in 00_config.yaml")
     if active not in c.get("gwas", {}):
@@ -112,7 +120,7 @@ def main():
     L.append('export N_COL="NEFF"')
     L.append("")
 
-    env_path = pipeline_dir / "_active_gwas.env"
+    env_path = Path(args.out_path) if args.out_path else (pipeline_dir / "_active_gwas.env")
     env_path.write_text("\n".join(L))
     print(f"[_emit_active_env] Wrote {env_path.relative_to(pipeline_dir.parent)} "
           f"for active_gwas={active}", file=sys.stderr)

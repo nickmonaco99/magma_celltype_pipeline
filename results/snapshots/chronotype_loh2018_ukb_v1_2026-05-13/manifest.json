@@ -1,0 +1,310 @@
+{
+  "snapshot_id": "chronotype_loh2018_ukb_v1_2026-05-13",
+  "snapshot_created": "2026-05-13T21:54:54.922496+00:00",
+  "snapshot_host": "Darwin arm64",
+  "git_commit": "b81a0fb76feef6ea15c73a5af09d82e076b508b6",
+  "gwas": {
+    "key": "chronotype_loh2018_ukb",
+    "name": "Chronotype / Morningness (UKB GWAS, harmonized GCST90029029)",
+    "citation": "Loh PR et al. 2018 (Nat Genet 50:906-908, BOLT-LMM v2 paper) \u2014 UKB chronotype phenotype, harmonized at GWAS Catalog.",
+    "n_cases": 0,
+    "n_controls": 0,
+    "n_effective": 410520,
+    "ancestry": "EUR",
+    "build": "GRCh37"
+  },
+  "magma": {
+    "required_version": "v1.10",
+    "window_upstream_kb": 35,
+    "window_downstream_kb": 10,
+    "model_direction": "greater"
+  },
+  "qc": {
+    "maf_min": 0.01,
+    "info_min": 0.6,
+    "min_g1000_overlap": 0.7
+  },
+  "gene_level_summary": {
+    "total_genes_tested": 18441,
+    "bonferroni_threshold": 2.57e-06,
+    "genes_passing_bonferroni": 285,
+    "gws_strict_threshold": 5e-08,
+    "genes_passing_gws_strict": 141
+  },
+  "celltype_bonferroni": 0.00010845986984815619,
+  "celltype_significant": {
+    "count": 20,
+    "list": [
+      {
+        "cluster": "Cluster132",
+        "beta": 35.222,
+        "p": 1.1231e-10
+      },
+      {
+        "cluster": "Cluster426",
+        "beta": 44.838,
+        "p": 6.2935e-09
+      },
+      {
+        "cluster": "Cluster217",
+        "beta": 41.453,
+        "p": 9.1598e-09
+      },
+      {
+        "cluster": "Cluster427",
+        "beta": 33.733,
+        "p": 1.2164e-07
+      },
+      {
+        "cluster": "Cluster229",
+        "beta": 32.572,
+        "p": 1.6209e-07
+      },
+      {
+        "cluster": "Cluster234",
+        "beta": 35.381,
+        "p": 3.0962e-07
+      },
+      {
+        "cluster": "Cluster219",
+        "beta": 25.87,
+        "p": 3.7019e-07
+      },
+      {
+        "cluster": "Cluster228",
+        "beta": 33.929,
+        "p": 5.7907e-07
+      },
+      {
+        "cluster": "Cluster403",
+        "beta": 23.047,
+        "p": 7.8219e-07
+      },
+      {
+        "cluster": "Cluster225",
+        "beta": 26.341,
+        "p": 1.1237e-06
+      },
+      {
+        "cluster": "Cluster405",
+        "beta": 33.314,
+        "p": 1.8757e-06
+      },
+      {
+        "cluster": "Cluster133",
+        "beta": 32.201,
+        "p": 1.9953e-06
+      },
+      {
+        "cluster": "Cluster378",
+        "beta": 22.904,
+        "p": 2.2409e-06
+      },
+      {
+        "cluster": "Cluster283",
+        "beta": 30.471,
+        "p": 2.5386e-06
+      },
+      {
+        "cluster": "Cluster273",
+        "beta": 31.177,
+        "p": 2.6718e-06
+      },
+      {
+        "cluster": "Cluster377",
+        "beta": 23.978,
+        "p": 3.6075e-06
+      },
+      {
+        "cluster": "Cluster250",
+        "beta": 24.508,
+        "p": 4.6124e-06
+      },
+      {
+        "cluster": "Cluster415",
+        "beta": 22.919,
+        "p": 4.8139e-06
+      },
+      {
+        "cluster": "Cluster233",
+        "beta": 29.164,
+        "p": 5.1641e-06
+      },
+      {
+        "cluster": "Cluster224",
+        "beta": 27.082,
+        "p": 5.8895e-06
+      }
+    ]
+  },
+  "celltype_top20": [
+    {
+      "cluster": "Cluster132",
+      "beta": 35.222,
+      "beta_std": 0.056017,
+      "p": 1.1231e-10,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster426",
+      "beta": 44.838,
+      "beta_std": 0.049503,
+      "p": 6.2935e-09,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster217",
+      "beta": 41.453,
+      "beta_std": 0.049698,
+      "p": 9.1598e-09,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster427",
+      "beta": 33.733,
+      "beta_std": 0.044191,
+      "p": 1.2164e-07,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster229",
+      "beta": 32.572,
+      "beta_std": 0.045222,
+      "p": 1.6209e-07,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster234",
+      "beta": 35.381,
+      "beta_std": 0.043844,
+      "p": 3.0962e-07,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster219",
+      "beta": 25.87,
+      "beta_std": 0.04356,
+      "p": 3.7019e-07,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster228",
+      "beta": 33.929,
+      "beta_std": 0.043082,
+      "p": 5.7907e-07,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster403",
+      "beta": 23.047,
+      "beta_std": 0.041836,
+      "p": 7.8219e-07,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster225",
+      "beta": 26.341,
+      "beta_std": 0.041214,
+      "p": 1.1237e-06,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster405",
+      "beta": 33.314,
+      "beta_std": 0.041134,
+      "p": 1.8757e-06,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster133",
+      "beta": 32.201,
+      "beta_std": 0.041344,
+      "p": 1.9953e-06,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster378",
+      "beta": 22.904,
+      "beta_std": 0.038483,
+      "p": 2.2409e-06,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster283",
+      "beta": 30.471,
+      "beta_std": 0.04158,
+      "p": 2.5386e-06,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster273",
+      "beta": 31.177,
+      "beta_std": 0.041667,
+      "p": 2.6718e-06,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster377",
+      "beta": 23.978,
+      "beta_std": 0.03917,
+      "p": 3.6075e-06,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster250",
+      "beta": 24.508,
+      "beta_std": 0.041395,
+      "p": 4.6124e-06,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster415",
+      "beta": 22.919,
+      "beta_std": 0.038057,
+      "p": 4.8139e-06,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster233",
+      "beta": 29.164,
+      "beta_std": 0.038833,
+      "p": 5.1641e-06,
+      "ngenes": 16361
+    },
+    {
+      "cluster": "Cluster224",
+      "beta": 27.082,
+      "beta_std": 0.038322,
+      "p": 5.8895e-06,
+      "ngenes": 16361
+    }
+  ],
+  "files_copied": [
+    "00_config.yaml",
+    "run.log",
+    "gene_level/genes.out",
+    "gene_level/step2.log",
+    "cell_type/cell_type.gsa.out",
+    "figures/manhattan.png",
+    "figures/qqplot.png"
+  ],
+  "files_missing": [
+    "results/Chronotype_Loh2018/Siletti_l2_conti-spe_Chronotype_Loh2018.gsa.log"
+  ],
+  "annotation": {
+    "annotated_at": "2026-05-13T22:23:08.426079+00:00",
+    "inputs": {
+      "siletti_annotations": "auxfiles/science.add7046_table_s3.xlsx",
+      "gene_loc": "auxfiles/NCBI37.3.gene.loc"
+    },
+    "outputs": {
+      "celltype_annotated": "annotated/celltype_annotated.csv",
+      "genes_annotated": "annotated/genes_annotated.csv"
+    },
+    "gene_symbol_mapping_available": true,
+    "n_clusters_total": 461,
+    "n_clusters_unmatched": 0,
+    "n_genes_total": 18441,
+    "n_genes_unmatched_symbol": 0
+  }
+}

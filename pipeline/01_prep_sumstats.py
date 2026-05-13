@@ -36,6 +36,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from scipy.stats import chi2
+import csv as _csv_mod
+import argparse
+_csv_mod.field_size_limit(2**31 - 1)
 
 pd.set_option('display.max_columns', 30)
 pd.set_option('display.width', 200)
@@ -57,7 +60,11 @@ with open('00_config.yaml') as f:
 project_root = pathlib.Path(config['project_root'])
 assert project_root.exists(), f"project_root does not exist: {project_root}"
 
-gwas_key = config['active_gwas']
+_parser = argparse.ArgumentParser(add_help=False)
+_parser.add_argument('--gwas-key', default=None,
+                     help='Override active_gwas; for parallel orchestration')
+_args, _ = _parser.parse_known_args()
+gwas_key = _args.gwas_key or config['active_gwas']
 gwas = config['gwas'][gwas_key]
 
 print(f"Active GWAS: {gwas['name']}")
@@ -190,7 +197,7 @@ print("\n--- First 5 raw lines ---")
 for i, line in enumerate(first_lines):
     print(f"[{i}] {line.rstrip()[:200]}")
 
-df_peek = pd.read_csv(gwas_raw_path, sep=None, engine='python', nrows=1000)
+df_peek = pd.read_csv(gwas_raw_path, sep=None, engine='python', nrows=1000, comment='#')
 print(f"\n--- Sample shape: {df_peek.shape} ---")
 print(f"\nColumns: {list(df_peek.columns)}")
 print(f"\nDtypes:\n{df_peek.dtypes}")
@@ -234,7 +241,7 @@ print("\n✓ All specified columns are present in the file")
 # 6. Load full file
 # =============================================================================
 print("Loading full sumstats (may take 1-3 min for ~10M SNPs)...")
-df = pd.read_csv(gwas_raw_path, sep=None, engine='python')
+df = pd.read_csv(gwas_raw_path, sep=None, engine='python', comment='#')
 print(f"Loaded {len(df):,} rows × {df.shape[1]} columns "
       f"({df.memory_usage(deep=True).sum() / 1e9:.2f} GB)")
 log_provenance(f"loaded raw sumstats: {len(df):,} rows")
@@ -345,7 +352,7 @@ gene_loc = pd.read_csv(
     sep='\t', header=None,
     names=['ENTREZ', 'CHR', 'START', 'STOP', 'STRAND', 'SYMBOL'],
     dtype={'ENTREZ': str, 'CHR': str}
-)
+, comment='#')
 print(f"Loaded {len(gene_loc):,} gene locations")
 
 
@@ -491,7 +498,7 @@ print(f"Loading SNP IDs from reference panel: {g1000_bim_path}")
 print(f"  ({g1000_bim_path.stat().st_size / 1e6:.0f} MB; may take 30-60s)")
 
 ref_rsids = pd.read_csv(g1000_bim_path, sep='\t', header=None, usecols=[1],
-                       names=['ID'], dtype={'ID': str})
+                       names=['ID'], dtype={'ID': str}, comment='#')
 print(f"Reference panel: {len(ref_rsids):,} SNPs")
 
 our_rsids = set(df['ID'].values)

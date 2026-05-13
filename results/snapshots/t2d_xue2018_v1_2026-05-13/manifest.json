@@ -1,0 +1,209 @@
+{
+  "snapshot_id": "t2d_xue2018_v1_2026-05-13",
+  "snapshot_created": "2026-05-13T21:54:54.771372+00:00",
+  "snapshot_host": "Darwin arm64",
+  "git_commit": "b81a0fb76feef6ea15c73a5af09d82e076b508b6",
+  "gwas": {
+    "key": "t2d_xue2018",
+    "name": "Type 2 Diabetes (Xue 2018 META, UKB+DIAGRAM+GERA)",
+    "citation": "Xue A et al. 2018. Genome-wide association analyses identify 143 risk variants and putative regulatory mechanisms for type 2 diabetes. Nat Commun 9:2941.",
+    "n_cases": 62892,
+    "n_controls": 596424,
+    "n_effective": 227463,
+    "ancestry": "EUR (with ~1% SAS)",
+    "build": "GRCh37"
+  },
+  "magma": {
+    "required_version": "v1.10",
+    "window_upstream_kb": 35,
+    "window_downstream_kb": 10,
+    "model_direction": "greater"
+  },
+  "qc": {
+    "maf_min": 0.01,
+    "info_min": 0.6,
+    "min_g1000_overlap": 0.7
+  },
+  "gene_level_summary": {
+    "total_genes_tested": 17460,
+    "bonferroni_threshold": 2.57e-06,
+    "genes_passing_bonferroni": 220,
+    "gws_strict_threshold": 5e-08,
+    "genes_passing_gws_strict": 120
+  },
+  "celltype_bonferroni": 0.00010845986984815619,
+  "celltype_significant": {
+    "count": 0,
+    "list": []
+  },
+  "celltype_top20": [
+    {
+      "cluster": "Cluster33",
+      "beta": 13.313,
+      "beta_std": 0.034307,
+      "p": 0.00020326,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster133",
+      "beta": 24.817,
+      "beta_std": 0.031633,
+      "p": 0.00041425,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster206",
+      "beta": 14.599,
+      "beta_std": 0.029478,
+      "p": 0.00063968,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster132",
+      "beta": 19.091,
+      "beta_std": 0.030174,
+      "p": 0.0006854,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster297",
+      "beta": 3.0973,
+      "beta_std": 0.02793,
+      "p": 0.00095947,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster122",
+      "beta": 22.041,
+      "beta_std": 0.02954,
+      "p": 0.00098888,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster217",
+      "beta": 24.295,
+      "beta_std": 0.02936,
+      "p": 0.0010707,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster123",
+      "beta": 21.815,
+      "beta_std": 0.028623,
+      "p": 0.0012493,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster32",
+      "beta": 9.3833,
+      "beta_std": 0.027582,
+      "p": 0.0015527,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster228",
+      "beta": 21.236,
+      "beta_std": 0.027127,
+      "p": 0.0018441,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster399",
+      "beta": 7.8559,
+      "beta_std": 0.025752,
+      "p": 0.0023956,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster34",
+      "beta": 10.847,
+      "beta_std": 0.026794,
+      "p": 0.0026698,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster251",
+      "beta": 15.578,
+      "beta_std": 0.024664,
+      "p": 0.0041419,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster220",
+      "beta": 15.809,
+      "beta_std": 0.024287,
+      "p": 0.0047539,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster344",
+      "beta": 11.946,
+      "beta_std": 0.024862,
+      "p": 0.0055603,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster290",
+      "beta": 14.609,
+      "beta_std": 0.022673,
+      "p": 0.0071677,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster36",
+      "beta": 8.8208,
+      "beta_std": 0.02262,
+      "p": 0.0075023,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster229",
+      "beta": 14.881,
+      "beta_std": 0.020838,
+      "p": 0.010832,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster408",
+      "beta": 6.8926,
+      "beta_std": 0.020376,
+      "p": 0.011135,
+      "ngenes": 15742
+    },
+    {
+      "cluster": "Cluster212",
+      "beta": 11.251,
+      "beta_std": 0.020723,
+      "p": 0.012523,
+      "ngenes": 15742
+    }
+  ],
+  "files_copied": [
+    "00_config.yaml",
+    "run.log",
+    "gene_level/genes.out",
+    "gene_level/step2.log",
+    "cell_type/cell_type.gsa.out",
+    "figures/manhattan.png",
+    "figures/qqplot.png"
+  ],
+  "files_missing": [
+    "results/T2D_Xue2018/Siletti_l2_conti-spe_T2D_Xue2018.gsa.log"
+  ],
+  "annotation": {
+    "annotated_at": "2026-05-13T21:54:55.884467+00:00",
+    "inputs": {
+      "siletti_annotations": "auxfiles/science.add7046_table_s3.xlsx",
+      "gene_loc": "auxfiles/NCBI37.3.gene.loc"
+    },
+    "outputs": {
+      "celltype_annotated": "annotated/celltype_annotated.csv",
+      "genes_annotated": "annotated/genes_annotated.csv"
+    },
+    "gene_symbol_mapping_available": true,
+    "n_clusters_total": 461,
+    "n_clusters_unmatched": 0,
+    "n_genes_total": 17460,
+    "n_genes_unmatched_symbol": 0
+  }
+}

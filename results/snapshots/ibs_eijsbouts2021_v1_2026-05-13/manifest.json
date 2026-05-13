@@ -1,0 +1,209 @@
+{
+  "snapshot_id": "ibs_eijsbouts2021_v1_2026-05-13",
+  "snapshot_created": "2026-05-13T21:54:54.846289+00:00",
+  "snapshot_host": "Darwin arm64",
+  "git_commit": "b81a0fb76feef6ea15c73a5af09d82e076b508b6",
+  "gwas": {
+    "key": "ibs_eijsbouts2021",
+    "name": "Irritable Bowel Syndrome (Eijsbouts 2021, UKB+23andMe meta)",
+    "citation": "Eijsbouts C et al. 2021. Genome-wide analysis of 53,400 people with irritable bowel syndrome highlights shared genetic pathways with mood and anxiety disorders. Nat Genet 53:1543-1552.",
+    "n_cases": 40548,
+    "n_controls": 293220,
+    "n_effective": 142432,
+    "ancestry": "EUR",
+    "build": "GRCh37"
+  },
+  "magma": {
+    "required_version": "v1.10",
+    "window_upstream_kb": 35,
+    "window_downstream_kb": 10,
+    "model_direction": "greater"
+  },
+  "qc": {
+    "maf_min": 0.01,
+    "info_min": 0.6,
+    "min_g1000_overlap": 0.7
+  },
+  "gene_level_summary": {
+    "total_genes_tested": 18538,
+    "bonferroni_threshold": 2.57e-06,
+    "genes_passing_bonferroni": 17,
+    "gws_strict_threshold": 5e-08,
+    "genes_passing_gws_strict": 11
+  },
+  "celltype_bonferroni": 0.00010845986984815619,
+  "celltype_significant": {
+    "count": 0,
+    "list": []
+  },
+  "celltype_top20": [
+    {
+      "cluster": "Cluster108",
+      "beta": 19.782,
+      "beta_std": 0.025605,
+      "p": 0.0002871,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster242",
+      "beta": 19.402,
+      "beta_std": 0.02489,
+      "p": 0.00039828,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster426",
+      "beta": 21.421,
+      "beta_std": 0.023769,
+      "p": 0.00040821,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster234",
+      "beta": 19.729,
+      "beta_std": 0.024576,
+      "p": 0.00046731,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster228",
+      "beta": 18.47,
+      "beta_std": 0.023472,
+      "p": 0.00072287,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster457",
+      "beta": 10.521,
+      "beta_std": 0.021684,
+      "p": 0.0010087,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster245",
+      "beta": 14.484,
+      "beta_std": 0.020812,
+      "p": 0.0019922,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster155",
+      "beta": 15.581,
+      "beta_std": 0.020837,
+      "p": 0.0019979,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster86",
+      "beta": 12.396,
+      "beta_std": 0.020595,
+      "p": 0.0021492,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster263",
+      "beta": 14.811,
+      "beta_std": 0.021218,
+      "p": 0.0022531,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster428",
+      "beta": 15.641,
+      "beta_std": 0.020133,
+      "p": 0.0029942,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster262",
+      "beta": 15.261,
+      "beta_std": 0.020374,
+      "p": 0.0032843,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster328",
+      "beta": 11.602,
+      "beta_std": 0.01978,
+      "p": 0.0033053,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster202",
+      "beta": 11.809,
+      "beta_std": 0.0196,
+      "p": 0.0034116,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster423",
+      "beta": 17.758,
+      "beta_std": 0.019766,
+      "p": 0.0036274,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster109",
+      "beta": 14.818,
+      "beta_std": 0.019949,
+      "p": 0.0037277,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster266",
+      "beta": 13.259,
+      "beta_std": 0.019419,
+      "p": 0.0039691,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster377",
+      "beta": 11.703,
+      "beta_std": 0.019157,
+      "p": 0.0041063,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster449",
+      "beta": 9.5751,
+      "beta_std": 0.0185,
+      "p": 0.0054799,
+      "ngenes": 16365
+    },
+    {
+      "cluster": "Cluster424",
+      "beta": 15.28,
+      "beta_std": 0.017734,
+      "p": 0.0067149,
+      "ngenes": 16365
+    }
+  ],
+  "files_copied": [
+    "00_config.yaml",
+    "run.log",
+    "gene_level/genes.out",
+    "gene_level/step2.log",
+    "cell_type/cell_type.gsa.out",
+    "figures/manhattan.png",
+    "figures/qqplot.png"
+  ],
+  "files_missing": [
+    "results/IBS_Eijsbouts2021/Siletti_l2_conti-spe_IBS_Eijsbouts2021.gsa.log"
+  ],
+  "annotation": {
+    "annotated_at": "2026-05-13T22:23:07.587648+00:00",
+    "inputs": {
+      "siletti_annotations": "auxfiles/science.add7046_table_s3.xlsx",
+      "gene_loc": "auxfiles/NCBI37.3.gene.loc"
+    },
+    "outputs": {
+      "celltype_annotated": "annotated/celltype_annotated.csv",
+      "genes_annotated": "annotated/genes_annotated.csv"
+    },
+    "gene_symbol_mapping_available": true,
+    "n_clusters_total": 461,
+    "n_clusters_unmatched": 0,
+    "n_genes_total": 18538,
+    "n_genes_unmatched_symbol": 0
+  }
+}

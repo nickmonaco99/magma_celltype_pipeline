@@ -28,8 +28,11 @@ set -euo pipefail
 # -----------------------------------------------------------------------------
 # 1. Load active-GWAS variables from config
 # -----------------------------------------------------------------------------
-python3 pipeline/_emit_active_env.py
-source pipeline/_active_gwas.env
+ENV_FILE="${1:-pipeline/_active_gwas.env}"
+if [[ "$ENV_FILE" == "pipeline/_active_gwas.env" ]]; then
+    python3 pipeline/_emit_active_env.py
+fi
+source "$ENV_FILE"
 
 GSA_OUT="${CELLTYPE_OUT_PREFIX}.gsa.out"
 

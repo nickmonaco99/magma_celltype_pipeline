@@ -1,0 +1,215 @@
+{
+  "snapshot_id": "insomnia_ukb_v2_2026-05-13",
+  "snapshot_created": "2026-05-13T21:54:54.608457+00:00",
+  "snapshot_host": "Darwin arm64",
+  "git_commit": "b81a0fb76feef6ea15c73a5af09d82e076b508b6",
+  "gwas": {
+    "key": "insomnia_ukb",
+    "name": "Insomnia (Watanabe 2022, UKB-only)",
+    "citation": "Watanabe K et al. 2022. Nat Genet 54:1125-1132. DOI: 10.1038/s41588-022-01124-w. UKB component originally from Jansen PR et al. 2019. Nat Genet 51:394-403.",
+    "n_cases": 109548,
+    "n_controls": 277440,
+    "n_effective": 314102,
+    "ancestry": "EUR",
+    "build": "GRCh37"
+  },
+  "magma": {
+    "required_version": "v1.10",
+    "window_upstream_kb": 35,
+    "window_downstream_kb": 10,
+    "model_direction": "greater"
+  },
+  "qc": {
+    "maf_min": 0.01,
+    "info_min": 0.6,
+    "min_g1000_overlap": 0.7
+  },
+  "gene_level_summary": {
+    "total_genes_tested": 18381,
+    "bonferroni_threshold": 2.57e-06,
+    "genes_passing_bonferroni": 26,
+    "gws_strict_threshold": 5e-08,
+    "genes_passing_gws_strict": 9
+  },
+  "celltype_bonferroni": 0.00010845986984815619,
+  "celltype_significant": {
+    "count": 1,
+    "list": [
+      {
+        "cluster": "Cluster133",
+        "beta": 24.003,
+        "p": 6.135e-05
+      }
+    ]
+  },
+  "celltype_top20": [
+    {
+      "cluster": "Cluster133",
+      "beta": 24.003,
+      "beta_std": 0.030832,
+      "p": 6.135e-05,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster132",
+      "beta": 17.756,
+      "beta_std": 0.028251,
+      "p": 0.00014161,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster286",
+      "beta": 19.473,
+      "beta_std": 0.027776,
+      "p": 0.00029453,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster141",
+      "beta": 17.939,
+      "beta_std": 0.025789,
+      "p": 0.00040411,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster273",
+      "beta": 20.052,
+      "beta_std": 0.026814,
+      "p": 0.000481,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster278",
+      "beta": 18.212,
+      "beta_std": 0.026464,
+      "p": 0.00049396,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster296",
+      "beta": 14.834,
+      "beta_std": 0.023675,
+      "p": 0.0010206,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster140",
+      "beta": 17.831,
+      "beta_std": 0.024609,
+      "p": 0.0010212,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster128",
+      "beta": 17.009,
+      "beta_std": 0.023835,
+      "p": 0.0011015,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster310",
+      "beta": 9.5458,
+      "beta_std": 0.02383,
+      "p": 0.0012229,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster323",
+      "beta": 12.105,
+      "beta_std": 0.023062,
+      "p": 0.0012367,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster293",
+      "beta": 14.565,
+      "beta_std": 0.024438,
+      "p": 0.0013123,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster240",
+      "beta": 17.637,
+      "beta_std": 0.023399,
+      "p": 0.001441,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster329",
+      "beta": 15.443,
+      "beta_std": 0.023606,
+      "p": 0.0014691,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster295",
+      "beta": 12.714,
+      "beta_std": 0.02361,
+      "p": 0.0015618,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster404",
+      "beta": 19.374,
+      "beta_std": 0.022499,
+      "p": 0.0016219,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster456",
+      "beta": 15.584,
+      "beta_std": 0.023063,
+      "p": 0.0017067,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster283",
+      "beta": 16.893,
+      "beta_std": 0.023066,
+      "p": 0.0018025,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster136",
+      "beta": 12.42,
+      "beta_std": 0.022397,
+      "p": 0.0018106,
+      "ngenes": 16327
+    },
+    {
+      "cluster": "Cluster288",
+      "beta": 16.48,
+      "beta_std": 0.023234,
+      "p": 0.0019572,
+      "ngenes": 16327
+    }
+  ],
+  "files_copied": [
+    "00_config.yaml",
+    "run.log",
+    "gene_level/genes.out",
+    "gene_level/step2.log",
+    "cell_type/cell_type.gsa.out",
+    "figures/manhattan.png",
+    "figures/qqplot.png"
+  ],
+  "files_missing": [
+    "results/INS_UKB/Siletti_l2_conti-spe_INS_UKB.gsa.log"
+  ],
+  "annotation": {
+    "annotated_at": "2026-05-13T22:23:09.258569+00:00",
+    "inputs": {
+      "siletti_annotations": "auxfiles/science.add7046_table_s3.xlsx",
+      "gene_loc": "auxfiles/NCBI37.3.gene.loc"
+    },
+    "outputs": {
+      "celltype_annotated": "annotated/celltype_annotated.csv",
+      "genes_annotated": "annotated/genes_annotated.csv"
+    },
+    "gene_symbol_mapping_available": true,
+    "n_clusters_total": 461,
+    "n_clusters_unmatched": 0,
+    "n_genes_total": 18381,
+    "n_genes_unmatched_symbol": 0
+  }
+}

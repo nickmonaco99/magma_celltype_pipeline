@@ -1,0 +1,37 @@
+Welcome to MAGMA v1.10 (linux/s)
+Using flags:
+	--bfile auxfiles/g1000_eur
+	--pval results/Chronotype_Loh2018/chronotype_loh2018_ukb.no_heading use=ID,PVAL ncol=NEFF
+	--gene-annot results/Chronotype_Loh2018/chronotype_loh2018_ukb.no_heading.step1.genes.annot
+	--out results/Chronotype_Loh2018/chronotype_loh2018_ukb.no_heading.step2
+
+Start time is 20:28:37, Wednesday 13 May 2026
+
+Loading PLINK-format data...
+Reading file auxfiles/g1000_eur.fam... 503 individuals read
+Reading file auxfiles/g1000_eur.bim... 22665064 SNPs read
+Preparing file auxfiles/g1000_eur.bed... 
+
+Reading SNP synonyms from file auxfiles/g1000_eur.synonyms (auto-detected)
+	read 6016767 mapped synonyms from file, mapping to 3921040 SNPs in the data
+	WARNING: detected 133 synonymous SNP pairs in the data
+	         skipped all synonym entries involved, synonymous SNPs are kept in analysis
+	         writing list of detected synonyms in data to supplementary log file
+Reading SNP p-values from file results/Chronotype_Loh2018/chronotype_loh2018_ukb.no_heading... 
+	detected 7 variables in file
+	using variable: ID (SNP id)
+	using variable: PVAL (p-value)
+	using variable: NEFF (sample size; discarding SNPs with N < 50)
+	read 11791559 lines from file, containing valid SNP p-values for 11015398 SNPs in data (93.42% of lines, 48.6% of SNPs in data)
+Loading gene annotation from file results/Chronotype_Loh2018/chronotype_loh2018_ukb.no_heading.step1.genes.annot... 
+	18466 gene definitions read from file
+	found 18441 genes containing valid SNPs in genotype data
+
+
+Starting gene analysis... 
+	using model: SNPwise-mean
+	writing gene analysis results to file results/Chronotype_Loh2018/chronotype_loh2018_ukb.no_heading.step2.genes.out
+	writing intermediate output to file results/Chronotype_Loh2018/chronotype_loh2018_ukb.no_heading.step2.genes.raw
+
+
+End time is 20:46:12, Wednesday 13 May 2026 (elapsed: 00:17:35)
