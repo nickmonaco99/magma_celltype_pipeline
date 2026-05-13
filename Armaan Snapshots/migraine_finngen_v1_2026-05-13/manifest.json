@@ -1,0 +1,18 @@
+{
+  "phenotype": "migraine",
+  "gwas": {
+    "name": "Migraine (FinnGen R12)",
+    "n_cases": 26894,
+    "n_controls": 374605
+  },
+  "plots": {
+    "plotted_at": "2026-05-13T17:58:22.567102+00:00",
+    "gws_threshold": 5e-08,
+    "celltype_bonferroni": 0.00010845986984815619,
+    "files": {
+      "celltype_manhattan": "figures\\celltype_manhattan.png",
+      "celltype_forest_top20": "figures\\celltype_forest_top20.png",
+      "genes_manhattan_annotated": "figures\\genes_manhattan_annotated.png"
+    }
+  }
+}
