@@ -1,0 +1,37 @@
+Welcome to MAGMA v1.10 (linux/s)
+Using flags:
+	--gene-results results/Chronotype_Loh2018/chronotype_loh2018_ukb.no_heading.step2.genes.raw
+	--gene-covar results/Chronotype_Loh2018/conditional/spec_matrix_sig_only.txt
+	--model joint-pairs direction=greater
+	--out results/Chronotype_Loh2018/conditional/joint_pairs
+
+Start time is 01:38:24, Thursday 14 May 2026
+
+Reading file results/Chronotype_Loh2018/chronotype_loh2018_ukb.no_heading.step2.genes.raw... 
+	18441 genes read from file
+Loading gene-level covariates...
+Reading file results/Chronotype_Loh2018/conditional/spec_matrix_sig_only.txt... 
+	detected 48 variables in file (using all)
+	found 48 valid gene covariates, for 16361 genes defined in genotype data
+Processing missing values...
+	found 2080 genes not present in all input files: removing these from analysis
+	16361 genes remaining in analysis
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 48 gene covariates
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), one-sided, positive (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		inverse mac, log(inverse mac)
+	analysing all pairs of available variables
+
+	analysing models with two main variables per model (number of models: 1128)
+	writing results to file results/Chronotype_Loh2018/conditional/joint_pairs.gsa.out
+
+End time is 01:38:46, Thursday 14 May 2026 (elapsed: 00:00:22)

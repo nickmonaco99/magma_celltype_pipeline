@@ -1,0 +1,15 @@
+# Analysis constants for cell-type MAGMA pipeline
+# Generated: 2026-05-13
+
+N_CLUSTERS = 461
+BONFERRONI_THRESHOLD = 0.00010845986984815619
+BONFERRONI_THRESHOLD_FORMULA = 0.05 / 461
+MAGMA_VERSION = 1.10
+MAGMA_MODEL_MARGINAL = direction=greater
+MAGMA_MODEL_CONDITIONAL = joint-pairs direction=greater
+SPECIFICITY_MATRIX = Siletti_l2_conti_specificity_matrix.txt (continuous)
+ATLAS = Siletti 2023 adult human brain, level 2 (461 clusters)
+LD_REFERENCE = 1000 Genomes Phase 3 EUR
+GENE_ANNOTATION = NCBI 37.3
+GENE_WINDOW = 35kb upstream, 10kb downstream
+CONDITIONAL_ALGORITHM = Duncan 2025 forward selection (Nat Neurosci)

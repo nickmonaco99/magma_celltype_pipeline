@@ -1,0 +1,4 @@
+VARIABLE,cluster_id_numeric,n_traits_independent,traits_independent,cluster_name,supercluster,class_auto,top_regions
+Cluster132,132,3,"bmi_yengo2018, chronotype_loh2018_ukb, scz_pgc3_2022",Misc_132,Miscellaneous,NEUR,"Cerebral cortex: 98.4%, Hippocampus: 0.8%, Midbrain: 0.8%"
+Cluster228,228,2,"bmi_yengo2018, scz_pgc3_2022",EMSN_228,Eccentric medium spiny neuron,NEUR,"Amygdala: 83.7%, Cerebral cortex: 12.2%, Thalamus: 1.9%"
+Cluster428,428,2,"bmi_yengo2018, scz_pgc3_2022",Splat_428,Splatter,NEUR,"Basal forebrain: 59.7%, Amygdala: 16.1%, Hypothalamus: 13.8%"

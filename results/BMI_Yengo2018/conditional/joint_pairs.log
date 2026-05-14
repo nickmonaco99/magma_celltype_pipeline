@@ -1,0 +1,38 @@
+Welcome to MAGMA v1.10 (linux/s)
+Using flags:
+	--gene-results results/BMI_Yengo2018/bmi_yengo2018.no_heading.step2.genes.raw
+	--gene-covar results/BMI_Yengo2018/conditional/spec_matrix_sig_only.txt
+	--model joint-pairs direction=greater
+	--out results/BMI_Yengo2018/conditional/joint_pairs
+
+Start time is 01:43:14, Thursday 14 May 2026
+
+Reading file results/BMI_Yengo2018/bmi_yengo2018.no_heading.step2.genes.raw... 
+	18052 genes read from file
+Loading gene-level covariates...
+Reading file results/BMI_Yengo2018/conditional/spec_matrix_sig_only.txt... 
+	detected 81 variables in file (using all)
+	found 81 valid gene covariates, for 16231 genes defined in genotype data
+Processing missing values...
+	found 1821 genes not present in all input files: removing these from analysis
+	16231 genes remaining in analysis
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 81 gene covariates
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), one-sided, positive (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		sample size, log(sample size)
+		inverse mac, log(inverse mac)
+	analysing all pairs of available variables
+
+	analysing models with two main variables per model (number of models: 3240)
+	writing results to file results/BMI_Yengo2018/conditional/joint_pairs.gsa.out
+
+End time is 01:44:00, Thursday 14 May 2026 (elapsed: 00:00:46)

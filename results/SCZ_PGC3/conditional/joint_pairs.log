@@ -1,0 +1,38 @@
+Welcome to MAGMA v1.10 (linux/s)
+Using flags:
+	--gene-results results/SCZ_PGC3/scz_pgc3_2022.no_heading.step2.genes.raw
+	--gene-covar results/SCZ_PGC3/conditional/spec_matrix_sig_only.txt
+	--model joint-pairs direction=greater
+	--out results/SCZ_PGC3/conditional/joint_pairs
+
+Start time is 00:57:13, Thursday 14 May 2026
+
+Reading file results/SCZ_PGC3/scz_pgc3_2022.no_heading.step2.genes.raw... 
+	18343 genes read from file
+Loading gene-level covariates...
+Reading file results/SCZ_PGC3/conditional/spec_matrix_sig_only.txt... 
+	detected 105 variables in file (using all)
+	found 105 valid gene covariates, for 16333 genes defined in genotype data
+Processing missing values...
+	found 2010 genes not present in all input files: removing these from analysis
+	16333 genes remaining in analysis
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 105 gene covariates
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), one-sided, positive (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		sample size, log(sample size)
+		inverse mac, log(inverse mac)
+	analysing all pairs of available variables
+
+	analysing models with two main variables per model (number of models: 5460)
+	writing results to file results/SCZ_PGC3/conditional/joint_pairs.gsa.out
+
+End time is 00:58:00, Thursday 14 May 2026 (elapsed: 00:00:47)

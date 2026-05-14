@@ -1,0 +1,13 @@
+cluster,cluster_id,supercluster,top_region,top_dissection,P_bmi,top_3_markers,top_5_drivers,top_feeding_gene,top_feeding_spec,top_feeding_Z,n_dev_TFs_in_top10,n_feeding_genes_in_top10,tier,tier_label
+Cluster251,251,MGE interneuron,Cerebral cortex: 94.0%,MTG: 6.6%,4.6165e-12,"CST8, KRTAP22-2, KRTAP13-2","NMU, CYP26A1, PDCL2, KRTAP22-2, PNOC",CCKAR,0.0054,4.44,0,0,2,Mixed
+Cluster228,228,Eccentric medium spiny neuron,Amygdala: 83.7%,La: 25.3%,3.4165e-11,"CSN2, EDN2, MBD3L3","TSPO2, SCN5A, KLF14, PAX6, HTR1D",KLF14,0.0133,6.43,0,1,2,Mixed
+Cluster286,286,CGE interneuron,Cerebral cortex: 70.6%,MEC: 5.8%,6.6972e-11,"LOC100131107, LCE1D, SPACA5B","RELN, KLF1, LOC100131107, PNOC, PRLHR",HCRTR1,0.0116,5.91,0,0,2,Mixed
+Cluster132,132,Miscellaneous,Cerebral cortex: 98.4%,A29-A30: 90.9%,4.1896e-10,"LRRC10, GPR148, DSG3","KCNS1, PCSK1, HCRTR1, DPP4, GLP2R",PCSK1,0.0203,7.49,0,2,2,Mixed
+Cluster389,389,Splatter,Pons: 67.3%,PnEN: 56.0%,1.2777e-07,"POTEC, NPS, POTED","CALCR, POTEC, IRX1, OTX1, PDZK1IP1",HCRTR1,0.0167,5.91,0,1,2,Mixed
+Cluster428,428,Splatter,Basal forebrain: 59.7%,SEP: 55.1%,1.6108e-07,"FGFBP1, TCP11X1, UGT2B28","LHX8, FGF19, KDM4E, FAM159B, FGFBP1",KLF14,0.0165,6.43,0,1,2,Mixed
+Cluster386,386,Splatter,Medulla: 98.2%,MoRF-MoEN: 55.1%,3.2537e-06,"C16orf90, FOXD3, BARX1","C16orf90, BARX1, KLF14, HMX2, HOXA4",KLF14,0.0581,6.43,7,1,3,Developmental
+Cluster305,305,Cerebellar inhibitory,Cerebellum: 88.0%,CBV: 79.1%,6.2128e-06,"ADAM20, LOC149373, OR56A5","LOC149373, PRSS33, ADAM20, TFAP2B, MIP",TFAP2B,0.0649,6.11,0,2,2,Mixed
+Cluster410,410,Splatter,Hypothalamus: 82.0%,HTHpo-HTHso: 58.9%,1.6026e-05,"RNF133, LCE2A, PPY","INS, OXT, SIM1, TH, FEZF1",INS,0.2034,5.67,0,4,1,Functional
+Cluster439,439,Midbrain-derived inhibitory,Midbrain: 52.8%,SC: 11.2%,2.5407e-05,"KRTAP26-1, DMBX1, KRTAP24-1","KRTAP26-1, KRTAP24-1, GCG, CPLX3, SHISA8",MC4R,0.009,6.11,0,0,2,Mixed
+Cluster332,332,Mammillary body,Hypothalamus: 99.9%,MN: 44.7%,2.996e-05,"FOXB2, PAPOLB, SIM1","SIM1, KLF14, PITX2, TSPO2, CCDC68",SIM1,0.0984,6.12,0,3,1,Functional
+Cluster311,311,Upper rhombic lip,Cerebellum: 72.7%,CBV: 33.7%,8.8146e-05,"OR10T2, CBLN3, CDH15","OR10T2, CDH15, SLC22A31, TLX3, FGF3",BDNF,0.0047,6.11,0,0,2,Mixed
