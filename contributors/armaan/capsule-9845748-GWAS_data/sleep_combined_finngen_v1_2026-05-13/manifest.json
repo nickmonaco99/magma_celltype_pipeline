@@ -1,0 +1,34 @@
+{
+  "phenotype": "sleep_combined",
+  "gwas": {
+    "name": "Sleep Disorders Combined (FinnGen R12)",
+    "n_cases": 55000,
+    "n_controls": 398733
+  },
+  "annotation": {
+    "annotated_at": "2026-05-13T18:25:26.960676+00:00",
+    "inputs": {
+      "siletti_annotations": "data\\science_add7046_table_s3.xlsx",
+      "gene_loc": "magma\\NCBI37.3.gene.loc"
+    },
+    "outputs": {
+      "celltype_annotated": "annotated\\celltype_annotated.csv",
+      "genes_annotated": "annotated\\genes_annotated.csv"
+    },
+    "gene_symbol_mapping_available": true,
+    "n_clusters_total": 461,
+    "n_clusters_unmatched": 0,
+    "n_genes_total": 18164,
+    "n_genes_unmatched_symbol": 0
+  },
+  "plots": {
+    "plotted_at": "2026-05-13T18:25:30.665125+00:00",
+    "gws_threshold": 5e-08,
+    "celltype_bonferroni": 0.00010845986984815619,
+    "files": {
+      "celltype_manhattan": "figures\\celltype_manhattan.png",
+      "celltype_forest_top20": "figures\\celltype_forest_top20.png",
+      "genes_manhattan_annotated": "figures\\genes_manhattan_annotated.png"
+    }
+  }
+}
