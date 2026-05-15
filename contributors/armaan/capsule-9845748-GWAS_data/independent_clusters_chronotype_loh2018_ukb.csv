@@ -1,0 +1,12 @@
+trait_key,trait_display,independent_rank,VARIABLE,cluster_id_numeric,cluster_name,supercluster,class_auto,top_regions,P,log10_neg_P
+chronotype_loh2018_ukb,Chronotype,1,Cluster132,132,Misc_132,Miscellaneous,NEUR,"Cerebral cortex: 98.4%, Hippocampus: 0.8%, Midbrain: 0.8%",1.12e-10,9.949581573
+chronotype_loh2018_ukb,Chronotype,2,Cluster426,426,EMSN_426,Eccentric medium spiny neuron,NEUR,"Amygdala: 81.9%, Cerebral cortex: 10.0%, Thalamus: 3.2%",6.29e-09,8.201107763
+chronotype_loh2018_ukb,Chronotype,3,Cluster403,403,Splat_403,Splatter,NEUR,"Cerebral cortex: 45.6%, Amygdala: 33.5%, Hypothalamus: 9.8%",7.82e-07,6.106687741
+chronotype_loh2018_ukb,Chronotype,4,Cluster378,378,Splat_378,Splatter,NEUR,"Amygdala: 29.4%, Basal forebrain: 25.2%, Hypothalamus: 22.3%",2.24e-06,5.649577523
+chronotype_loh2018_ukb,Chronotype,5,Cluster283,283,CGE_283,CGE interneuron,NEUR,"Cerebral cortex: 81.0%, Hippocampus: 9.3%, Amygdala: 5.0%",2.54e-06,5.595405724
+chronotype_loh2018_ukb,Chronotype,6,Cluster250,250,MGE_250,MGE interneuron,NEUR,"Cerebral cortex: 92.5%, Hippocampus: 2.4%, Basal forebrain: 2.2%",4.61e-06,5.336073037
+chronotype_loh2018_ukb,Chronotype,7,Cluster415,415,Splat_415,Splatter,NEUR,"Hypothalamus: 78.7%, Midbrain: 7.6%, Thalamus: 3.7%",4.81e-06,5.317502936
+chronotype_loh2018_ukb,Chronotype,8,Cluster272,272,LLC_272,LAMP5-LHX6 and Chandelier,NEUR,"Cerebral cortex: 67.5%, Amygdala: 16.1%, Basal forebrain: 7.8%",1.15e-05,4.938472129
+chronotype_loh2018_ukb,Chronotype,9,Cluster207,207,MSN_207,Medium spiny neuron,NEUR,"Basal forebrain: 92.9%, Thalamus: 4.1%, Amygdala: 1.9%",2.43e-05,4.614250772
+chronotype_loh2018_ukb,Chronotype,10,Cluster364,364,Splat_364,Splatter,NEUR,"Midbrain: 99.6%, Thalamus: 0.2%, Medulla: 0.1%",3.76e-05,4.425343798
+chronotype_loh2018_ukb,Chronotype,11,Cluster396,396,Splat_396,Splatter,NEUR,"Pons: 66.2%, Midbrain: 31.2%, Hypothalamus: 1.2%",7.13e-05,4.147038402

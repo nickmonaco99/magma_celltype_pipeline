@@ -1,0 +1,10 @@
+trait_key,trait_display,independent_rank,VARIABLE,cluster_id_numeric,cluster_name,supercluster,class_auto,top_regions,P,log10_neg_P
+scz_pgc3_2022,SCZ,1,Cluster239,239,MGE_239,MGE interneuron,NEUR,"Cerebral cortex: 95.4%, Hippocampus: 1.5%, Basal forebrain: 1.2%",5.28e-16,15.27758822
+scz_pgc3_2022,SCZ,2,Cluster280,280,CGE_280,CGE interneuron,NEUR,"Cerebral cortex: 73.7%, Amygdala: 13.3%, Hippocampus: 7.8%",8.48e-15,14.07150685
+scz_pgc3_2022,SCZ,3,Cluster132,132,Misc_132,Miscellaneous,NEUR,"Cerebral cortex: 98.4%, Hippocampus: 0.8%, Midbrain: 0.8%",6.17e-14,13.21005987
+scz_pgc3_2022,SCZ,4,Cluster228,228,EMSN_228,Eccentric medium spiny neuron,NEUR,"Amygdala: 83.7%, Cerebral cortex: 12.2%, Thalamus: 1.9%",1.34e-11,10.87432359
+scz_pgc3_2022,SCZ,5,Cluster404,404,Misc_404,Miscellaneous,NEUR,"Cerebral cortex: 94.4%, Amygdala: 2.5%, Basal forebrain: 1.2%",5.6e-08,7.251656896
+scz_pgc3_2022,SCZ,6,Cluster428,428,Splat_428,Splatter,NEUR,"Basal forebrain: 59.7%, Amygdala: 16.1%, Hypothalamus: 13.8%",1.09e-06,5.961459314
+scz_pgc3_2022,SCZ,7,Cluster433,433,Midi_433,Midbrain-derived inhibitory,NEUR,"Midbrain: 89.4%, Thalamus: 8.3%, Hypothalamus: 1.3%",6.97e-05,4.156879393
+scz_pgc3_2022,SCZ,8,Cluster202,202,DG_202,Hippocampal dentate gyrus,NEUR,"Hippocampus: 100.0%, Cerebral cortex: 0.0%, Amygdala: 0.0%",7.69e-05,4.114028482
+scz_pgc3_2022,SCZ,9,Cluster456,456,Thex_456,Thalamic excitatory,NEUR,"Thalamus: 99.8%, Hippocampus: 0.2%, Cerebral cortex: 0.0%",0.00010618,3.973957279

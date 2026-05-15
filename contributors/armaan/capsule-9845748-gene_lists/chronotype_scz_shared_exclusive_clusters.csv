@@ -1,0 +1,7 @@
+whb_cluster,supercluster,top_regions,weight
+LLC_269,LAMP5-LHX6 and Chandelier,"Cerebral cortex: 43.7%, Hippocampus: 25.7%, Amygdala: 22.8%",6.8941
+LLC_271,LAMP5-LHX6 and Chandelier,"Cerebral cortex: 63.9%, Amygdala: 16.6%, Hippocampus: 9.9%",6.6225
+EMSN_226,Eccentric medium spiny neuron,"Basal forebrain: 33.6%, Amygdala: 33.3%, Hypothalamus: 19.3%",6.0557
+EMSN_224,Eccentric medium spiny neuron,"Basal forebrain: 70.9%, Amygdala: 13.6%, Cerebral cortex: 8.2%",5.7418
+ULIT_122,Upper-layer intratelencephalic,"Cerebral cortex: 93.9%, Basal forebrain: 2.6%, Hippocampus: 1.7%",5.7181
+LLC_272,LAMP5-LHX6 and Chandelier,"Cerebral cortex: 67.5%, Amygdala: 16.1%, Basal forebrain: 7.8%",5.6912

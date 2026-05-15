@@ -1,0 +1,13 @@
+trait_key,trait_display,independent_rank,VARIABLE,cluster_id_numeric,cluster_name,supercluster,class_auto,top_regions,P,log10_neg_P
+bmi_yengo2018,BMI,1,Cluster251,251,MGE_251,MGE interneuron,NEUR,"Cerebral cortex: 94.0%, Hippocampus: 2.5%, Basal forebrain: 2.4%",4.62e-12,11.33568716
+bmi_yengo2018,BMI,2,Cluster228,228,EMSN_228,Eccentric medium spiny neuron,NEUR,"Amygdala: 83.7%, Cerebral cortex: 12.2%, Thalamus: 1.9%",3.42e-11,10.46641857
+bmi_yengo2018,BMI,3,Cluster286,286,CGE_286,CGE interneuron,NEUR,"Cerebral cortex: 70.6%, Hippocampus: 13.8%, Amygdala: 10.2%",6.7e-11,10.17410673
+bmi_yengo2018,BMI,4,Cluster132,132,Misc_132,Miscellaneous,NEUR,"Cerebral cortex: 98.4%, Hippocampus: 0.8%, Midbrain: 0.8%",4.19e-10,9.377827439
+bmi_yengo2018,BMI,5,Cluster389,389,Splat_389,Splatter,NEUR,"Pons: 67.3%, Midbrain: 29.6%, Thalamus: 2.4%",1.28e-07,6.893571105
+bmi_yengo2018,BMI,6,Cluster428,428,Splat_428,Splatter,NEUR,"Basal forebrain: 59.7%, Amygdala: 16.1%, Hypothalamus: 13.8%",1.61e-07,6.792958379
+bmi_yengo2018,BMI,7,Cluster386,386,Splat_386,Splatter,NEUR,"Medulla: 98.2%, Pons: 1.2%, Midbrain: 0.6%",3.25e-06,5.487622493
+bmi_yengo2018,BMI,8,Cluster305,305,CBI_305,Cerebellar inhibitory,NEUR,"Cerebellum: 88.0%, Pons: 4.7%, Midbrain: 3.7%",6.21e-06,5.206712627
+bmi_yengo2018,BMI,9,Cluster410,410,Splat_410,Splatter,NEUR,"Hypothalamus: 82.0%, Thalamus: 11.6%, Amygdala: 5.2%",1.6e-05,4.795174862
+bmi_yengo2018,BMI,10,Cluster439,439,Midi_439,Midbrain-derived inhibitory,NEUR,"Midbrain: 52.8%, Thalamus: 31.3%, Pons: 10.7%",2.54e-05,4.595046612
+bmi_yengo2018,BMI,11,Cluster332,332,Mmb_332,Mammillary body,NEUR,"Hypothalamus: 99.9%, Thalamus: 0.1%, Cerebral cortex: 0.0%",3e-05,4.523458191
+bmi_yengo2018,BMI,12,Cluster311,311,URL_311,Upper rhombic lip,NEUR,"Cerebellum: 72.7%, Medulla: 10.3%, Pons: 8.2%",8.81e-05,4.054797391

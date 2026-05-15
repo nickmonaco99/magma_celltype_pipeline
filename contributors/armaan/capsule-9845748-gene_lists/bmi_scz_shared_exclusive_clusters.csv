@@ -1,0 +1,31 @@
+whb_cluster,supercluster,top_regions,weight
+CGE_288,CGE interneuron,"Cerebral cortex: 70.6%, Amygdala: 13.7%, Hippocampus: 6.3%",11.3365
+CGE_278,CGE interneuron,"Cerebral cortex: 78.0%, Amygdala: 10.4%, Hippocampus: 8.1%",11.1839
+MGE_239,MGE interneuron,"Cerebral cortex: 95.4%, Hippocampus: 1.5%, Basal forebrain: 1.2%",10.6852
+CGE_280,CGE interneuron,"Cerebral cortex: 73.7%, Amygdala: 13.3%, Hippocampus: 7.8%",10.1474
+MGE_241,MGE interneuron,"Cerebral cortex: 90.2%, Basal forebrain: 3.5%, Hippocampus: 2.5%",9.7279
+MGE_262,MGE interneuron,"Cerebral cortex: 94.5%, Basal forebrain: 2.1%, Hippocampus: 1.8%",8.8549
+MGE_240,MGE interneuron,"Cerebral cortex: 92.3%, Amygdala: 3.0%, Hippocampus: 2.3%",8.7994
+CGE_294,CGE interneuron,"Cerebral cortex: 64.4%, Hippocampus: 14.7%, Amygdala: 10.8%",8.7304
+CGE_296,CGE interneuron,"Cerebral cortex: 72.9%, Amygdala: 10.5%, Hippocampus: 9.0%",8.2668
+MGE_243,MGE interneuron,"Cerebral cortex: 96.3%, Hippocampus: 1.4%, Basal forebrain: 1.1%",8.0758
+MGE_259,MGE interneuron,"Cerebral cortex: 89.3%, Amygdala: 3.4%, Hippocampus: 3.3%",7.8455
+CGE_287,CGE interneuron,"Cerebral cortex: 53.6%, Amygdala: 17.5%, Hippocampus: 15.0%",7.7071
+DLIT_140,Deep-layer intratelencephalic,"Cerebral cortex: 99.2%, Hippocampus: 0.5%, Basal forebrain: 0.2%",7.4591
+CGE_293,CGE interneuron,"Cerebral cortex: 70.3%, Hippocampus: 15.1%, Amygdala: 8.5%",7.4106
+Splat_424,Splatter,"Amygdala: 34.9%, Hypothalamus: 32.8%, Thalamus: 29.6%",7.1658
+Misc_177,Miscellaneous,"Hippocampus: 68.2%, Midbrain: 20.5%, Cerebral cortex: 10.8%",6.8977
+DLIT_141,Deep-layer intratelencephalic,"Cerebral cortex: 95.4%, Basal forebrain: 2.0%, Hippocampus: 1.4%",6.7966
+CGE_290,CGE interneuron,"Cerebral cortex: 83.0%, Hippocampus: 8.5%, Amygdala: 5.2%",6.5612
+CGE_295,CGE interneuron,"Cerebral cortex: 67.0%, Amygdala: 17.8%, Hippocampus: 8.6%",6.3382
+LLC_274,LAMP5-LHX6 and Chandelier,"Cerebral cortex: 84.6%, Basal forebrain: 5.9%, Hippocampus: 3.1%",5.974
+Misc_404,Miscellaneous,"Cerebral cortex: 94.4%, Amygdala: 2.5%, Basal forebrain: 1.2%",5.8778
+Splat_389,Splatter,"Pons: 67.3%, Midbrain: 29.6%, Thalamus: 2.4%",5.5211
+CGE_289,CGE interneuron,"Cerebral cortex: 82.1%, Hippocampus: 7.9%, Amygdala: 5.8%",5.4427
+DLIT_149,Deep-layer intratelencephalic,"Cerebral cortex: 98.6%, Basal forebrain: 0.6%, Hippocampus: 0.5%",5.1527
+CGE_291,CGE interneuron,"Cerebral cortex: 75.1%, Hippocampus: 14.3%, Amygdala: 7.1%",5.1462
+EMSN_227,Eccentric medium spiny neuron,"Amygdala: 52.6%, Basal forebrain: 20.6%, Hypothalamus: 20.3%",4.988
+DLIT_139,Deep-layer intratelencephalic,"Cerebral cortex: 95.2%, Basal forebrain: 1.9%, Hippocampus: 1.5%",4.7913
+Misc_178,Miscellaneous,"Hippocampus: 43.8%, Midbrain: 29.4%, Cerebral cortex: 26.8%",4.7618
+MGE_245,MGE interneuron,"Amygdala: 50.6%, Cerebral cortex: 31.0%, Hippocampus: 15.3%",4.646
+CGE_285,CGE interneuron,"Cerebral cortex: 62.9%, Hippocampus: 22.3%, Amygdala: 9.5%",4.3744
